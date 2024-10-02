@@ -5,34 +5,93 @@
     <title>My BCIT Project</title>
     <meta name="comp1800 template" content="My 1800 App">
 
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap Library CSS CDN go here -->
-    <!-- Boostrap Library JS CDN  go here -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
-    <!-- Other libraries go here -->
-
-    <!-- Link to styles of your own -->
-    <!-- <link rel="stylesheet" href="./styles/style.css"> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg bg-warning navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./images/logo.jpg" height="36"> Hei's Hike</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Others</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-    <!------------------------------>
-    <!-- Your HTML Layout go here -->
-    <!------------------------------>
-    <!-- Stuff for body goes here -->
+    <div class="p-5 mb-4 bg-light rounded-3">
+        <div class="container-fluid py-5">
+            <h1 class="display-5 fw-bold">This is Hei's Hiking Journey!</h1>
+            <p class="col-md-8 fs-4">You can find all my hiking experience here!</p>
 
+            <button class="btn btn-warning btn-lg" type="button">Login</button>
 
-    <!---------------------------------------------->
-    <!-- Your own JavaScript functions go here    -->
-    <!---------------------------------------------->
+        </div>
+    </div>
 
-    <!-- Link to scripts of your own -->
-    <!-- <script src="./scripts/script.js"></script> -->
+    <div class="row row-cols-1 row-cols-md-2 g-4 mx-5 mb-5">
+        <div class="col">
+            <div class="card">
+                <img src="images/hike1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">XYZ mountain</h5>
+                    <p class="card-text">This is my travel to the XYZ mountain in 2012.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="images/hike2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">ABC mountain</h5>
+                    <p class="card-text">My hike to ABC mountain back in 2014.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="images/hike3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">DEF peak</h5>
+                    <p class="card-text">In 2016 I visited the DEF peak.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="images/hike4.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">HIJ hill</h5>
+                    <p class="card-text">Hiked HIJ hill in 2018.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </body>
 
